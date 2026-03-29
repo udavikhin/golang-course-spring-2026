@@ -14,6 +14,8 @@ git log
 
 git checkout (hash)
 
+git branch (branchName)
+
 ## Text
 
 **_Bold_**
