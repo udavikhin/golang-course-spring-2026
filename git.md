@@ -19,3 +19,7 @@ git checkout (hash)
 **_Bold_**
 
 _Curs_
+
+1. Numbered list item
+2. Numbered list item
+3. Numbered list item
