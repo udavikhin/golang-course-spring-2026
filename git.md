@@ -1,27 +1,13 @@
-# Git lesson
+# Команды для работы с Git
 
-## Commands
+## Список основных команд
 
-git init
-
-git add .
-
-git commit -m "message"
-
-git status
-
-git log
-
-git checkout (hash)
-
-git branch (branchName)
-
-## Text
-
-**_Bold_**
-
-_Curs_
-
-1. Numbered list item
-2. Numbered list item
-3. Numbered list item
+| Команда                 | Описание                                                |
+|-------------------------|---------------------------------------------------------|
+| git init                | Создание пустого git-репозитория                        |
+| git add .               | Добавление содержимого рабочего каталога в индекс       | 
+| git commit -m "message" | Запись изменений в репозиторий (коммит)                 |
+| git status              | Проверка состояния файлов в рабочем каталоге и индексе  |
+| git log                 | Просмотр истории коммитов                               |
+| git checkout            | Смена рабочей ветки или восстановление состояния файлов |
+| git branch **<имя>**    | Создание новой ветки                                    |
