@@ -13,7 +13,14 @@ func capitalizeWords(s string) string {
 	var capitalizedString []string
 	for _, word := range parts {
 		runes := []rune(word)
-		runes[0] = unicode.ToUpper(runes[0])
+
+		if len(runes) > 0 {
+			runes[0] = unicode.ToUpper(runes[0])
+
+			for i, v := range runes[1:] {
+				runes[i+1] = unicode.ToLower(v)
+			}
+		}
 
 		capitalizedString = append(capitalizedString, string(runes))
 	}
